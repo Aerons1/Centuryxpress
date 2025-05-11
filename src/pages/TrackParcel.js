@@ -16,7 +16,7 @@ function TrackParcel() {
   if (!parcel) return <p className="text-center mt-5">Parcel not found.</p>;
 
   return (
-    <div className="container mt-5">
+    <div className="track-container mt-5">
       <h2>Tracking #{parcel.trackingNumber}</h2>
       <p><strong>Status:</strong> {parcel.status}</p>
       <p><strong>Location:</strong> {parcel.location}</p>
