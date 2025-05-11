@@ -3,12 +3,14 @@
 .track-container {
   background: url('../assets/pexels-tomfisk.jpg') center center / cover no-repeat fixed;
   min-height: 100vh;
-  padding: 4rem 1rem;
+  padding: 3rem 1rem;
   position: relative;
   z-index: 1;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
+  color: white;
+  font-weight: bold;
 }
 
 .track-container::before {
@@ -18,70 +20,13 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.65);
+  background-color: rgba(0, 0, 0, 0.6); /* Dark overlay */
   z-index: -1;
 }
 
 .track-box {
-  background: rgba(0, 0, 0, 0.6); /* Transparent dark card */
-  color: #fff;
-  padding: 2rem 2.5rem;
-  border-radius: 12px;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
-  max-width: 700px;
   width: 100%;
-}
-
-.track-box h2 {
-  font-size: 2rem;
+  max-width: 700px;
+  color: white;
   font-weight: bold;
-  margin-bottom: 1.5rem;
-  color: #fff;
-}
-
-.track-box p {
-  font-size: 1.1rem;
-  font-weight: bold;
-  margin-bottom: 0.75rem;
-}
-
-.track-box strong {
-  font-weight: bold;
-  color: #fff;
-}
-
-.track-history {
-  margin-top: 2rem;
-}
-
-.track-history h5 {
-  font-size: 1.3rem;
-  font-weight: bold;
-  margin-bottom: 1rem;
-  color: #fff;
-}
-
-.track-history ul {
-  list-style: none;
-  padding-left: 0;
-}
-
-.track-history li {
-  background: rgba(255, 255, 255, 0.15);
-  padding: 0.75rem 1rem;
-  margin-bottom: 0.5rem;
-  border-left: 4px solid #fff;
-  border-radius: 6px;
-  font-size: 1rem;
-  color: #fff;
-  font-weight: 500;
-}
-
-.not-found {
-  font-size: 1.3rem;
-  font-weight: bold;
-  color: #fff;
-  background: rgba(255, 0, 0, 0.3);
-  padding: 1rem 1.5rem;
-  border-radius: 10px;
 }
