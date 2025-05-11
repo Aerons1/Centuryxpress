@@ -20,7 +20,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/track/:trackingNumber" element={<TrackParcel />} />
-          <Route path="/login" element={<Login />} />
+          <Route path="/login" element={ <Login /> } />
           
           
           {/* Protected Admin Route */}
@@ -42,5 +42,4 @@ function App() {
     </GoogleOAuthProvider>
   );
 }
-
 export default App;
