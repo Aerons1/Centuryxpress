@@ -4,7 +4,7 @@ import { GoogleOAuthProvider } from '@react-oauth/google';
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import Login from './pages/Login';
-import Signup from './pages/Signup';
+//import Signup from './pages/Signup';
 import TrackParcel from './pages/TrackParcel';
 import AdminDashboard from './pages/AdminDashboard';
 import UserDashboard from './pages/UserDashboard';
@@ -21,7 +21,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/track/:trackingNumber" element={<TrackParcel />} />
           <Route path="/login" element={<Login />} />
-          <Route path="/signup" element={<Signup />} />
+          
           
           {/* Protected Admin Route */}
           <Route
