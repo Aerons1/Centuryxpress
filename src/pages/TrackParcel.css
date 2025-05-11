@@ -1,0 +1,70 @@
+/* TrackParcel.css */
+
+.track-container {
+  background: url('../assets/pexels-tomfisk.jpg') center center / cover no-repeat fixed;
+  min-height: 100vh;
+  padding: 4rem 1rem;
+  position: relative;
+  z-index: 1;
+  color: #fff;
+}
+
+.track-container::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: -1;
+}
+
+.track-box {
+  background: rgba(255, 255, 255, 0.9);
+  color: #333;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.track-box h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #0056b3;
+  margin-bottom: 1rem;
+}
+
+.track-box p {
+  font-size: 1.1rem;
+  margin-bottom: 0.8rem;
+}
+
+.track-box strong {
+  color: #222;
+}
+
+.track-history {
+  margin-top: 2rem;
+}
+
+.track-history h5 {
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.track-history ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.track-history li {
+  background: #f8f9fa;
+  margin-bottom: 0.5rem;
+  padding: 0.75rem 1rem;
+  border-radius: 6px;
+  color: #333;
+  font-size: 0.95rem;
+  border-left: 4px solid #007bff;
+}

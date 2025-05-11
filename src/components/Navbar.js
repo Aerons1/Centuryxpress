@@ -13,12 +13,12 @@ function Navbar() {
 
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark px-3">
-      <Link className="navbar-brand" to="/">CenturyExpress</Link>
+      <Link className="navbar-brand" to="/">CenturyXpress 🚚📦</Link>
       <div className="ms-auto d-flex align-items-center gap-2">
         {!isLoggedIn() && (
           <>
             <Link className="btn btn-outline-light" to="/login">Login</Link>
-            <Link className="btn btn-outline-light" to="/signup">Signup</Link>
+            
           </>
         )}
 
